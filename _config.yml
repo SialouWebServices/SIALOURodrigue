@@ -7,14 +7,14 @@ lang: fr
 theme: jekyll-theme-minimal
 
 # Options du thème
-show_downloads: false
+show_downloads: true
 google_analytics: UA-XXXXXXXXX-X   # (remplace si tu veux suivre les visites avec Google Analytics, sinon supprime)
 
 # Liens de navigation (affichés comme menu ou boutons selon le thème)
 social_links:
   email: "sialousialou@gmail.com"
   linkedin: "https://linkedin.com/in/sia-rodrigue"
-  github: "https://github.com/sialousialou"
+  github: "https://github.com/SialouWebServices"
   twitter: "https://twitter.com/sialousialou"
   facebook: "https://facebook.com/sialousialou"
   instagram: "https://instagram.com/sialous"
