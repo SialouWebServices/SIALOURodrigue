@@ -1,6 +1,28 @@
 title: "SIALOU Koffi Rodrigue"
 logo: img/photoSIALOU.jpg
-description: "Responsable d'organisation du RIAN"
-show_downloads: false
-theme: jekyll-theme-minimal
+description: "Responsable d'organisation du RIAN | DevOps | Alphabétiseur Numérique"
 lang: fr
+
+# Thème choisi
+theme: jekyll-theme-minimal
+
+# Options du thème
+show_downloads: false
+google_analytics: UA-XXXXXXXXX-X   # (remplace si tu veux suivre les visites avec Google Analytics, sinon supprime)
+
+# Liens de navigation (affichés comme menu ou boutons selon le thème)
+social_links:
+  email: "sialousialou@gmail.com"
+  linkedin: "https://linkedin.com/in/sia-rodrigue"
+  github: "https://github.com/sialousialou"
+  twitter: "https://twitter.com/sialousialou"
+  facebook: "https://facebook.com/sialousialou"
+  instagram: "https://instagram.com/sialous"
+
+# Personnalisation SEO (métadonnées)
+author: "SIALOU Koffi Rodrigue"
+keywords: "alphabétisation numérique, DevOps, RIAN, Côte d'Ivoire, transformation digitale"
+timezone: "Africa/Abidjan"
+
+# Footer personnalisé
+footer: "© 2025 SIALOU Koffi Rodrigue — Portfolio GitHub Pages"
