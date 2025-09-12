@@ -51,7 +51,7 @@ Je combine mon expertise technique (**DevOps, développement web, automatisation
 ---
 
 ## 🤝 Engagements & Associations
-- 🌐 **Réseau Ivoirien des Alphabétiseurs Numériques (RIAN)** – Membre actif  
+- 🌐 **Réseau Ivoirien des Alphabétiseurs Numériques (RIAN)**  
 - 📊 Projets associatifs pour la formation numérique, l’inclusion sociale et l’autonomisation des communautés  
 - 🏛️ Participation à la rénovation et au développement communautaire (Salle du Royaume de Oumé)  
 
