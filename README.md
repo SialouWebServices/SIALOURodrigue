@@ -1,8 +1,9 @@
 # 👋 Bienvenue sur mon Portfolio
 
-![Profile views](https://komarev.com/ghpvc/?username=sialousialou&label=👀+Visiteurs)  
-![GitHub followers](https://img.shields.io/github/followers/sialousialou?style=social)  
-![GitHub stars](https://img.shields.io/github/stars/sialousialou?style=social)  
+![SIALOU Koffi Rodrigue](img/photoSIALOU.jpg)
+![Profile views](https://komarev.com/ghpvc/?username=SialouWebServices&label=👀+Visiteurs)  
+![GitHub followers](https://img.shields.io/github/followers/SialouWebServices?style=social)  
+![GitHub stars](https://img.shields.io/github/stars/SialouWebServices?style=social)  
 
 ---
 
