@@ -18,11 +18,11 @@ Je combine mon expertise technique (**DevOps, développement web, automatisation
 ---
 
 ## 🚀 Mes projets phares
-- 🔹 [**Réseau Ivoirien des Alphabétiseurs Numériques (RIAN)**](https://huggingface.co/spaces/swservices/rian)  
-- 🔹 **Gestion de stock Excel & App Inventor**  
-- 🔹 **Application Web – Programmation des volontaires (Lovable.dev)**  
-- 🔹 **Protocole d’observation passive du dark web (Python)**  
-- 🔹 **Menu ivoirien exportable en Paprika Recipe Manager**  
+- 🔹 [*Réseau Ivoirien des Alphabétiseurs Numériques (RIAN)*](https://huggingface.co/spaces/swservices/rian)  
+- 🔹 *Gestion de stock Excel & App Inventor*  
+- 🔹 *Application Web – Programmation des volontaires*  
+- 🔹 *Protocole d’observation passive du dark web (Python)*  
+- 🔹 *Menu ivoirien exportable en Paprika Recipe Manager*
 
 ---
 
