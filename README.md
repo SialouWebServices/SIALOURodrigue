@@ -44,7 +44,7 @@ Je combine mon expertise technique (**DevOps, développement web, automatisation
 - 🎓 **CQP AN – Lycée professionnel Industriel de Daloa** (2024)
 - 🎓 **DevOps – Contournement.io** (2022)  
 - 🎓 **Certificat SSI (Udemy)** – Sécurité systèmes & réseaux (2018)  
-- 🎓 **Maintenance informatique & NTIC – Gouesse Com SARL** (2016)  
+- 🎓 **Maintenance informatique & NTIC – Gouesse SARL** (2016)  
 - 🎓 **Lycée moderne de Bocanda** (2004)  
 - 📚 **Référentiel Alphabétiseur Numérique (CQP, 720h – 2023)**  
 
@@ -58,8 +58,8 @@ Je combine mon expertise technique (**DevOps, développement web, automatisation
 ---
 
 ## 📊 Statistiques GitHub
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sialousialou&show_icons=true&theme=tokyonight)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sialousialou&layout=compact&theme=tokyonight)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SialouWebServices&show_icons=true&theme=tokyonight)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SialouWebServices&layout=compact&theme=tokyonight)  
 
 ---
 
