@@ -43,7 +43,7 @@
   <div class="mySlides" style="display:none;">
     <img src="img/photo3.jpg" alt="Image 3">
   </div>
-    <div class="mySlides" style="display:none;">
+   <!-- <div class="mySlides" style="display:none;">
     <img src="img/photo4.jpg" alt="Image 2">
   </div>
   <div class="mySlides" style="display:none;">
@@ -51,7 +51,7 @@
   </div>
     <div class="mySlides" style="display:none;">
     <img src="img/photo6.jpg" alt="Image 2">
-  </div>
+  </div> -->
   <div class="mySlides" style="display:none;">
     <img src="img/photo7.jpg" alt="Image 3">
   </div>
