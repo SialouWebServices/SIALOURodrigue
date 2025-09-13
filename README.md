@@ -1,6 +1,5 @@
-# 👋 Bienvenue sur mon Portfolio
-
 <img src="img/photoSIALOU.jpg" alt="SIALOU Koffi Rodrigue" width="25%" />
+# 👋 Bienvenue sur mon Portfolio
 
 ![Profile views](https://komarev.com/ghpvc/?username=SialouWebServices&label=👀+Visiteurs)  
 ![GitHub followers](https://img.shields.io/github/followers/SialouWebServices?style=social)  
