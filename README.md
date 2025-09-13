@@ -25,9 +25,9 @@
 }
 
 /* Responsive : sur mobile (moins de 480px), réduire la hauteur */
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .carousel img {
-    height: 480px;
+    height: 400px;
   }
 }
 </style>
@@ -157,8 +157,8 @@ Je combine mon expertise technique (**DevOps, développement web, automatisation
 
 ## 🤝 Engagements & Associations
 - 🌐 **Réseau Ivoirien des Alphabétiseurs Numériques (RIAN)**  
-- 📊 Projets associatifs pour la formation numérique, l’inclusion sociale et l’autonomisation des communautés  
-- 🏛️ Participation à la rénovation et au développement communautaire (Salle du Royaume de Oumé)  
+- 📊 **Projets associatifs pour la formation numérique, l’inclusion sociale et l’autonomisation des communautés**  
+- 🏛️ **Participation à la rénovation et au développement communautaire (Salle du Royaume de Oumé)**  
 
 ---
 
@@ -170,7 +170,7 @@ Je combine mon expertise technique (**DevOps, développement web, automatisation
 
 ## 📫 Me contacter
 📧 **Email** : sialousialou@gmail.com | sialous@outlook.fr  
-📱 **Téléphone** : +225 07 07 44 38 91 / +225 05 06 62 82 14  
+📱 **Téléphone** : 07 07 44 38 91 / 05 06 62 82 14  
 🔗 **Réseaux sociaux** : [Facebook](https://facebook.com/sialousialou) | [Instagram](https://instagram.com/sialous) | [LinkedIn](https://linkedin.com/in/sia-rodrigue)  
 
 ---
