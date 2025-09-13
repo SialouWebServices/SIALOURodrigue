@@ -6,7 +6,7 @@
 }
 .carousel img {
   width: 100%;
-  height: 350px;
+  height: 600px;
   object-fit: cover;
   border-radius: 12px;
 }
@@ -35,13 +35,25 @@
 <div class="carousel">
   <!-- Images -->
   <div class="mySlides">
-    <img src="img/photo1.jpg" alt="Image 1">
+    <img src="img/photoSIALOU.jpg" alt="Image 1">
   </div>
   <div class="mySlides" style="display:none;">
     <img src="img/photo2.jpg" alt="Image 2">
   </div>
   <div class="mySlides" style="display:none;">
     <img src="img/photo3.jpg" alt="Image 3">
+  </div>
+    <div class="mySlides" style="display:none;">
+    <img src="img/photo4.jpg" alt="Image 2">
+  </div>
+  <div class="mySlides" style="display:none;">
+    <img src="img/photo5.jpg" alt="Image 3">
+  </div>
+    <div class="mySlides" style="display:none;">
+    <img src="img/photo6.jpg" alt="Image 2">
+  </div>
+  <div class="mySlides" style="display:none;">
+    <img src="img/photo7.jpg" alt="Image 3">
   </div>
 
   <!-- Boutons -->
