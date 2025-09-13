@@ -27,7 +27,7 @@
 /* Responsive : sur mobile (moins de 480px), réduire la hauteur */
 @media (max-width: 480px) {
   .carousel img {
-    height: 200px;
+    height: 480px;
   }
 }
 </style>
