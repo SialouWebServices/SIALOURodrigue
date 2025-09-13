@@ -1,25 +1,71 @@
-<div style="max-width:600px; margin:auto; position:relative;">
+<style>
+.carousel {
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+}
+.carousel img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+.active-dot {
+  background-color: #717171 !important;
+}
 
+/* Responsive : sur mobile (moins de 480px), réduire la hauteur */
+@media (max-width: 480px) {
+  .carousel img {
+    height: 200px;
+  }
+}
+</style>
+
+<div class="carousel">
   <!-- Images -->
-  <img src="img/photoSIALOU.jpg" alt="Image 1" style="width:100%; border-radius:12px; display:block;">
-  <img src="img/photo2.jpg" alt="Image 2" style="width:100%; border-radius:12px; display:none;">
-  <img src="img/photo3.jpg" alt="Image 3" style="width:100%; border-radius:12px; display:none;">
-  <img src="img/photo4.jpg" alt="Image 2" style="width:100%; border-radius:12px; display:none;">
-  <img src="img/photo5.jpg" alt="Image 3" style="width:100%; border-radius:12px; display:none;">
-  <img src="img/photo6.jpg" alt="Image 3" style="width:100%; border-radius:12px; display:none;">
-  <img src="img/photo7.jpg" alt="Image 3" style="width:100%; border-radius:12px; display:none;">
+  <div class="mySlides">
+    <img src="img/photo1.jpg" alt="Image 1">
+  </div>
+  <div class="mySlides" style="display:none;">
+    <img src="img/photo2.jpg" alt="Image 2">
+  </div>
+  <div class="mySlides" style="display:none;">
+    <img src="img/photo3.jpg" alt="Image 3">
+  </div>
 
   <!-- Boutons -->
   <a style="cursor:pointer; position:absolute; top:50%; left:0; padding:16px; color:white; font-size:24px; font-weight:bold; background:rgba(0,0,0,0.3);" onclick="plusSlides(-1)">&#10094;</a>
   <a style="cursor:pointer; position:absolute; top:50%; right:0; padding:16px; color:white; font-size:24px; font-weight:bold; background:rgba(0,0,0,0.3);" onclick="plusSlides(1)">&#10095;</a>
+
+  <!-- Indicateurs -->
+  <div style="text-align:center; position:absolute; bottom:10px; width:100%;">
+    <span class="dot" onclick="currentSlide(0)"></span>
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+  </div>
 </div>
 
 <script>
 let slideIndex = 0;
-const slides = document.querySelectorAll("div img");
+let slides = document.getElementsByClassName("mySlides");
+let dots = document.getElementsByClassName("dot");
 
 function showSlides(n) {
-  slides.forEach((s,i)=> s.style.display = (i === n ? "block" : "none"));
+  for (let i = 0; i < slides.length; i++) slides[i].style.display = "none";
+  for (let i = 0; i < dots.length; i++) dots[i].classList.remove("active-dot");
+  slides[n].style.display = "block";
+  dots[n].classList.add("active-dot");
 }
 
 function plusSlides(n) {
@@ -29,7 +75,12 @@ function plusSlides(n) {
   showSlides(slideIndex);
 }
 
-// Défilement automatique toutes les 3 secondes
+function currentSlide(n) {
+  slideIndex = n;
+  showSlides(slideIndex);
+}
+
+// Défilement automatique toutes les 3s
 setInterval(() => {
   plusSlides(1);
 }, 3000);
@@ -37,6 +88,7 @@ setInterval(() => {
 // Initialisation
 showSlides(slideIndex);
 </script>
+
 
 
 # 👋 Bienvenue sur mon Portfolio
