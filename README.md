@@ -1,4 +1,43 @@
-<img src="img/photoSIALOU.jpg" alt="SIALOU Koffi Rodrigue" width="25%" />
+<div style="max-width:600px; margin:auto; position:relative;">
+
+  <!-- Images -->
+  <img src="img/photoSIALOU.jpg" alt="Image 1" style="width:100%; border-radius:12px; display:block;">
+  <img src="img/photo2.jpg" alt="Image 2" style="width:100%; border-radius:12px; display:none;">
+  <img src="img/photo3.jpg" alt="Image 3" style="width:100%; border-radius:12px; display:none;">
+  <img src="img/photo4.jpg" alt="Image 2" style="width:100%; border-radius:12px; display:none;">
+  <img src="img/photo5.jpg" alt="Image 3" style="width:100%; border-radius:12px; display:none;">
+  <img src="img/photo6.jpg" alt="Image 3" style="width:100%; border-radius:12px; display:none;">
+  <img src="img/photo7.jpg" alt="Image 3" style="width:100%; border-radius:12px; display:none;">
+
+  <!-- Boutons -->
+  <a style="cursor:pointer; position:absolute; top:50%; left:0; padding:16px; color:white; font-size:24px; font-weight:bold; background:rgba(0,0,0,0.3);" onclick="plusSlides(-1)">&#10094;</a>
+  <a style="cursor:pointer; position:absolute; top:50%; right:0; padding:16px; color:white; font-size:24px; font-weight:bold; background:rgba(0,0,0,0.3);" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<script>
+let slideIndex = 0;
+const slides = document.querySelectorAll("div img");
+
+function showSlides(n) {
+  slides.forEach((s,i)=> s.style.display = (i === n ? "block" : "none"));
+}
+
+function plusSlides(n) {
+  slideIndex += n;
+  if (slideIndex >= slides.length) slideIndex = 0;
+  if (slideIndex < 0) slideIndex = slides.length - 1;
+  showSlides(slideIndex);
+}
+
+// Défilement automatique toutes les 3 secondes
+setInterval(() => {
+  plusSlides(1);
+}, 3000);
+
+// Initialisation
+showSlides(slideIndex);
+</script>
+
 
 # 👋 Bienvenue sur mon Portfolio
 
